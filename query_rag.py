@@ -45,7 +45,3 @@ def query_rag(query_text: str) -> QueryResponse:
     return QueryResponse(
         query_text=query_text, response_text=response_text, sources=sources
     )
-
-
-if __name__ == "__main__":
-    query_rag("How much does a langing page cost to develop?")
